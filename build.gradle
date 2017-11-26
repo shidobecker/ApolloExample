@@ -3,6 +3,8 @@
 buildscript {
     ext.kotlin_version = '1.1.61'
     ext.apollo_version = '0.4.2'
+    ext.retrofitLibVersion = '2.3.0'
+
     repositories {
         google()
         jcenter()
@@ -26,6 +28,8 @@ allprojects {
         jcenter()
     }
 }
+
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir
